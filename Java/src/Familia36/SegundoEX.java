@@ -10,11 +10,11 @@ public class SegundoEX {
 		Scanner leia = new Scanner(System.in);
 		
 		System.out.println("Digite todos os seus dias: ");
-		dias = leia.nextInt();
+		total = leia.nextInt();
 		
-		anos= dias/365;
-		meses = anos/12;
-		dias = (meses*30)/12;
+		anos= total/365;
+		meses = (total%365)/30;
+		dias = (meses%12)%30;
 		
 		System.out.printf("\nSua idade é : %d", anos);
 		System.out.printf("\nSeus Meses são : %d", meses);

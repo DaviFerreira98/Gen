@@ -18,39 +18,39 @@ public class SegundoEX {
 		
 		if(n1>n2 && n1>n3) {
 			if(n2>n3) {
-				System.out.printf("\n%d",n1);
-				System.out.printf("\n%d",n2);
 				System.out.printf("\n%d",n3);
+				System.out.printf("\n%d",n2);
+				System.out.printf("\n%d",n1);
 			}
 			else {
-				System.out.printf("\n%d",n1);
-				System.out.printf("\n%d",n3);
 				System.out.printf("\n%d",n2);
+				System.out.printf("\n%d",n3);
+				System.out.printf("\n%d",n1);
 			}
 				
 		}
 		else if(n2>n1 && n2>n3) {
 			if(n1>n3) {
-				System.out.printf("\n%d",n2);
-				System.out.printf("\n%d",n1);
 				System.out.printf("\n%d",n3);
+				System.out.printf("\n%d",n1);
+				System.out.printf("\n%d",n2);
 			}
 			else {
-				System.out.printf("\n%d",n2);
-				System.out.printf("\n%d",n3);
 				System.out.printf("\n%d",n1);
+				System.out.printf("\n%d",n3);
+				System.out.printf("\n%d",n2);
 			}
 		}
 		if(n3>n1 && n3>n2) {
 			if(n1>n2) {
-				System.out.printf("\n%d",n3);
-				System.out.printf("\n%d",n1);
 				System.out.printf("\n%d",n2);
+				System.out.printf("\n%d",n1);
+				System.out.printf("\n%d",n3);
 			}
 			else {
-				System.out.printf("\n%d",n3);
-				System.out.printf("\n%d",n2);
 				System.out.printf("\n%d",n1);
+				System.out.printf("\n%d",n2);
+				System.out.printf("\n%d",n3);
 			}
 
 		}

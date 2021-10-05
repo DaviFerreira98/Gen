@@ -10,7 +10,7 @@ public class SegundoEX {
 		int par=0,impar=0,i,x;
 		
 		for(i=0;i<10;i++) {
-			System.out.println("Digite um numero");
+			System.out.println("Digite um numero: ");
 			x=ler.nextInt();
 			
 			if(x%2==0) { //ler numeros pares

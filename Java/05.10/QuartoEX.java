@@ -32,7 +32,7 @@ public class QuartoEX {
 		
 		
 		
-		while(idade>=1 && genero>=1 && genero<=3 && psico>=1 && psico<=3 && pessoas!=150) { //Começa minha repetição
+		while(pessoas!=150) { //Começa minha repetição
 			
 			if (psico==1) {	//numero de pessoas calmas
 				calmas++;

@@ -16,11 +16,21 @@ public class QuartoEX {
 				+ "\n2-Masculino"
 				+ "\n3-Outros");
 		genero=info.nextInt();
+		while(genero<1 || genero>3) {
+			System.out.println("Genero invalido Digite novamente");
+			genero=info.nextInt();
+		}
 		System.out.println("Selecione a caracteristica que mais se assemelhar a voce:"
 				+ "\n1-Voce é uma pessoa calma"
 				+ "\n2-Voce é uma pessoa nervosa"
 				+ "\n3-Voce é uma pessoa agressiva");
 		psico=info.nextInt();
+		while(psico<1 || psico>3) {
+			System.out.println("Caracteristica invalida digite novamente");
+			psico=info.nextInt();
+		}
+		
+		
 		
 		while(idade>=1 && genero>=1 && genero<=3 && psico>=1 && psico<=3 && pessoas!=150) { //Começa minha repetição
 			
@@ -49,11 +59,19 @@ public class QuartoEX {
 					+ "\n2-Masculino"
 					+ "\n3-Outros");
 			genero=info.nextInt();
+			while(genero<1 || genero>3) {
+				System.out.println("Genero invalido Digite novamente");
+				genero=info.nextInt();
+			}
 			System.out.println("Selecione a caracteristica que mais se assemelhar a voce:"
 					+ "\n1-Voce é uma pessoa calma"
 					+ "\n2-Voce é uma pessoa nervosa"
 					+ "\n3-Voce é uma pessoa agressiva");
 			psico=info.nextInt();
+			while(psico<1 || psico>3) {
+				System.out.println("Caracteristica invalida digite novamente");
+				psico=info.nextInt();
+			}
 			pessoas++;
 		}
 		

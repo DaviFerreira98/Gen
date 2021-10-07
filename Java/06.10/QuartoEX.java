@@ -10,9 +10,8 @@ public class QuartoEX {
 		int n2[][]=new int [2][2];
 		int soma[][]= new int[2][2];
 		int sub[][]= new int[2][2];
-		int constante[][]= {{1,2},{2,3}};
 		Scanner ler=new Scanner(System.in);
-		int l,c,menu;
+		int l,c,menu,constante;
 		
 		for(l=0;l<2;l++) {
 			for(c=0;c<2;c++) {
@@ -60,17 +59,19 @@ public class QuartoEX {
 					}
 			}
 			else if(menu==3) {
+				System.out.println("Digite a constante");
+				constante=ler.nextInt();
 				System.out.println("Matriz A");
 				for(l=0;l<2;l++) {
 					for(c=0;c<2;c++) {
-						n1[l][c]=n1[l][c]+constante[l][c];
+						n1[l][c]=n1[l][c]+constante;
 						System.out.print(" "+n1[l][c]+" /");
 
 					}
 				}System.out.println("\nMatriz B");
 				for(l=0;l<2;l++) {
 					for(c=0;c<2;c++) {
-						n1[l][c]=n1[l][c]+constante[l][c];
+						n2[l][c]=n2[l][c]+constante;
 						System.out.print(" "+n2[l][c]+" /");
 					}
 				}

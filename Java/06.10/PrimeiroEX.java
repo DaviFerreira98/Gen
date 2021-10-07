@@ -11,7 +11,7 @@ public class PrimeiroEX {
 		System.out.println("\nA soma dde alguns valores do vetor é: "+soma);
 		A[4]=100;
 		for(x=0;x<6;x++) {
-		System.out.print(" "+A[x]+" /");
+		System.out.print("\n "+A[x]);
 		}
 		
 	}

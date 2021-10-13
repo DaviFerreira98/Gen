@@ -1,16 +1,15 @@
 package Animal;
 
-public class Animal {
+public abstract class Animal {
 	
 	private String nome;
 	private int idade;
-	private String som;
-
+	abstract public void som(String barulho);
+	abstract public void Habilidade(String hab);
 	
-	public Animal(String nome,int idade,String som) {
+	public Animal(String nome,int idade) {
 		this.nome=nome;
 		this.idade=idade;
-		this.som=som;
 	}
 
 
@@ -33,15 +32,6 @@ public class Animal {
 		this.idade = idade;
 	}
 
-
-	public String getSom() {
-		return som;
-	}
-
-
-	public void setSom(String som) {
-		this.som = som;
-	}
 	
 	
 }
